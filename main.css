@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(86, 86, 218);
+}
+.avt img{
+    max-width: 10%;
+    margin-left:45% ;
+    margin-top: -45px;
+}
+p{
+    font-size: 22px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+h2::first-letter{
+    font-size: 150%;
+  color: black;
+}
+ol{
+    font-size: 22px;
+    font-weight: 420;
+    
+}
+ol>p{
+    font-weight:600 ;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color :red;
+}
+div.social-media{
+    /* display: block; */
+    box-shadow: 5px 10px #c9c3c3;
+    background-color: deepskyblue;
+    border: 2px solid;
+    border-color:rgb(48, 48, 121) ;
+}
+.background{
+    margin-left:42% ;
+    align-items: center;
+}
+
+
+h1{
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+}
+
+#tien{
+  display: flex;
+  align-content: center;
+}
+:root{
+    --text-color1: rgb(16, 223, 68);
+    --text-color2: rgb(217, 240, 13);
+    --text-color3: rgb(240, 77, 13);
+
+}
+@-webkit-keyframes my {
+    0% {
+      color: var(--text-color2);
+    } 
+    50% {
+      color: var(--text-color1);
+    } 
+    100% {
+      color: var(--text-color3);
+    } 
+  }
+  @-moz-keyframes my { 
+    0% {
+      color: var(--text-color1);
+    } 
+    50% {
+      color: var(--text-color2);
+    }
+    100% {
+      color: var(--text-color3);
+    } 
+  }
+  @-o-keyframes my { 
+    0% {
+      color: var(--text-color2);
+    } 
+    50% {
+      color: var(--text-color1);
+    } 
+    100% {
+      color: var(--text-color3);
+    } 
+  }
+   @keyframes my { 
+     0% {
+      color: #ffff00;
+    } 
+    50% {
+      color: var(--text-color2);
+    }
+    100% {
+      color: var(--text-color1);
+    } 
+  }
